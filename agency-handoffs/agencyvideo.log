@@ -1,0 +1,118 @@
+  ┊ review diff
+a/agency-handoffs/eddie-video.md → b/agency-handoffs/eddie-video.md
+@@ -0,0 +1,523 @@
++# Eddie Video Production Package — Jag Electric
++# Status: PRODUCTION PACKAGE (no render; awaiting asset delivery)
++# Prepared by: Eddie (agencyvideo lane)
++# Date: 2026-06-08
++
++---
++
++## Overview
++
++Three deliverables scoped here:
++
++1. HERO-30  — 30-second homepage hero / social cut (primary deliverable)
++2. HERO-60  — 60-second homepage explainer cut (secondary, same assets)
++3. SERVICE-SHORTS — 6 x 15-second per-service vertical shorts (Reels/Shorts/TikTok)
++
++All three share the same visual identity: dark graphite/black switchgear surface,
++electric cyan/blue-white glow, warning amber used sparingly as accent, copper
++conductor color, clean high-contrast Inter/Space Mono typography.
++
++Render tool when ready: Hyperframes (HTML composition -> MP4). No avatar required
++for HERO-30/60. Avatar optional for SERVICE-SHORTS if Toby supplies HeyGen clip.
++
++---
++
++## Visual Identity Brief (DESIGN.md seed)
++
++| Token        | Value                  | Role                              |
++|--------------|------------------------|-----------------------------------|
++| bg-deep      | #0D0D0F                | Canvas / switchgear surface       |
++| bg-panel     | #141418                | Card / panel surface              |
++| accent-cyan  | #00D4FF                | Primary glow, live circuit, CTA   |
++| accent-amber | #FFB020                | Warning sparingly, rating badge   |
++| accent-copper| #B87333                | Conductor lines, dividers         |
++| text-primary | #F0F4F8                | Headlines                         |
++| text-muted   | #7A8A99                | Body / secondary                  |
++| font-display | Inter 700/800          | Headlines, CTAs                   |
++| font-mono    | Space Mono 400/700     | Technical readouts, badge labels  |
++| motion-char  | Technical / precise    | No bounce; circuit-trace reveals  |
++
++DO NOT use: generic blue-orange contractor palette, stock sparkle emojis,
++stock lightning bolts as main identity, white canvas.
++
++---
++
++## HERO-30: "Live Circuit" (30-second Homepage/Social Cut)
++
++### Concept
++The breaker panel comes alive. Copper traces light up one by one across a
++dark switchgear surface, then resolve into service icons and a clean CTA.
++No voiceover actor needed — music bed + animated captions carry it.
++Tone: premium, confident, slightly industrial. Not gimmicky.
++
++### Storyboard
++
++Scene 01 — HOOK (0:00 – 0:04) — 4 sec
++  Visual: Black frame. Single copper trace draws itself left-to-right across
++  the lower third of frame. At the end of the trace: a small amber indicator
++  light pulses ON.
++  Caption (animated burn-in, Space Mono): "CIRCUIT OPEN"
++  SFX: faint electrical hum, sub-bass pulse on amber light.
++  Cut type: hard cut to Scene 02.
++
++Scene 02 — AUTHORITY (0:04 – 0:10) — 6 sec
++  Visual: Dark graphite panel. Large headline fades in from opacity-0:
++    Line 1 (Inter 800, #F0F4F8): "JAG ELECTRIC"
++    Line 2 (Inter 400, cyan glow): "Licensed Electrical Contractor"
++  Below: cyan-glow horizontal rule draws itself right.
++  Sub-caption row fades in (Space Mono, amber):
++    [★ 4.9 Google]  [A+ BBB]  [50 Reviews]
++  SFX: single clean relay-click on rule draw.
++  No voiceover. Badges are sourced facts; do not invent anything.
++
++Scene 03 — PROOF LOOP (0:10 – 0:18) — 8 sec
++  Visual: 3-card horizontal strip, each card on dark panel surface,
++  cyan left-border accent, copper top rule.
++
++    Card A (0:10–0:13):
++      Icon: circuit breaker SVG outline, cyan fill on activate.
+… omitted 445 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_144702_54e200
+File is written. 523 lines, 23 KB. Nothing else mutated.
+
+---
+
+Eddie here. Production package is down at:
+
+  /home/toby/jag-electric-site/agency-handoffs/eddie-video.md
+
+What's in it:
+
+DELIVERABLES SCOPED
+  - HERO-30: 30-sec homepage/social cut (16x9, 9x16, 1x1 variants)
+  - HERO-60: 60-sec explainer cut (16x9 for site embed)
+  - SERVICE-SHORTS: 6 x 15-sec vertical Reels (one per service page)
+
+WHAT'S IN THE PACKAGE
+  - Full storyboard for HERO-30 and HERO-60 with scene-by-scene timing, visual direction, caption beats, and SFX notes
+  - SERVICE-SHORTS storyboard for all 6 (hook / service visual / CTA structure)
+  - Voiceover script if avatar route is chosen; music-only spec if not
+  - Complete caption plan: font, size, color, max word count, disclaimer rules
+  - Shot list with 7 assets clearly labeled A1-A7, source options, what can be generated vs. what you supply
+  - Platform cuts table with dimensions, durations, naming convention, and audio normalization spec
+  - Full QC checklist: mechanical (ffprobe commands), visual (frame extraction commands), claims gate, and AI disclosure gate
+  - Hyperframes composition notes: exact GSAP patterns for circuit trace, stagger, amber pulse, finite repeat rules
+  - Site integration notes for Craig/Forge: hero loop, explainer player, per-service page headers, estimate-prep page reinforcement
+  - Chad handoff: angle, hypothesis, targeting notes, spend gate
+  - 3 blocking items clearly listed by priority so you can unblock fast
+
+BLOCKING BEFORE RENDER
+  1. Logo file or explicit "use text wordmark" approval
+  2. Music bed — need your approval on the track before it goes into the composition
+  3. Map asset — Mapbox API key (free tier) or confirm I go SVG route
+
+None of those block the site build itself. Craig/Forge can build the full site without waiting on video. Render starts when you clear those three.

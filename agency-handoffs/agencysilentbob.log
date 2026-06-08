@@ -1,0 +1,107 @@
+  ┊ review diff
+a/agency-handoffs/silentbob-facts.md → b/agency-handoffs/silentbob-facts.md
+@@ -0,0 +1,178 @@
++# Silent Bob Intelligence Brief — Jag Electric
++**Produced by:** Saabab / Silent Bob
++**Date:** 2026-06-08
++**Project:** Jag Electric full-site build
++**Status:** Ready for Wordsmith, Craig (Forge), Chad
++
++---
++
++## 1. CONFIRMED FACTS
++Source-backed. Downstream lanes may use these without qualification.
++
++| Fact | Source |
++|---|---|
++| Business name | JAG Electric / Jag Electric, LLC. | GBP + BBB |
++| Category | Electrician / electrical contractor | GBP + Facebook |
++| Address | 807 E 7th St, Galena, KS 66739 | GBP + BBB |
++| Phone | (620) 714-1125 | GBP |
++| Email | jag.electric@yahoo.com | Facebook |
++| Owner/principal | Joe Gendre | BBB |
++| Entity type | LLC | BBB |
++| Business started | 3/7/2019 | BBB |
++| Incorporated | 4/2/2019 | BBB |
++| BBB accreditation | Accredited since 2/20/2020, A+ rating | BBB |
++| Google rating | 4.9 stars, 50 reviews | Toby-supplied |
++| Facebook | 354 likes/followers, 100% recommend (20 reviews) | Facebook page |
++| HomeAdvisor rating | 4.9 from 45 reviews | HomeAdvisor |
++| HomeAdvisor approvals | Approved; services listed include Master Electrician, Panel Upgrades | HomeAdvisor |
++| Free estimates | Yes | HomeAdvisor |
++| Experience claim | 24 years (listed by HomeAdvisor) | HomeAdvisor — flag below |
++| Facebook description | "residential and commercial electrical contractor striving for excellent customer service offering limited evening and weekend appointments" | Facebook |
++| GBP snippet | "Reputable electrician for residential rewirings, fixture installations and more." | GBP |
++| Service types confirmed | Panel upgrades, rewiring, lighting/fixture installs, outlet/switch repair, electrical for remodel/addition, new construction wiring, switchboard/connectors, computer cable installation, commercial electrical | BBB + HomeAdvisor + Facebook |
++| Review snippets (approved) | "The work is high quality!" / "A great choice if you want quality work without hassle." / "Jag Electric and the technician Jacob did a wonderful job!" | Toby-supplied |
++| Technician name in review | Jacob (field tech mentioned in review) | Toby-supplied review snippet |
++| Service area anchor | Pittsburg, KS and roughly 30-mile radius; business address in Galena, KS | GBP + Toby |
++| Approved city pages | Pittsburg KS, Galena KS, Joplin MO, Frontenac KS, Girard KS | Brief |
++
++---
++
++## 2. PLACEHOLDERS AND ASSUMPTIONS
++Labeled hypotheses. Must not be presented as confirmed on the live site.
++
++| Item | Status | Action needed |
++|---|---|---|
++| 24-year experience claim | ASSUMPTION — HomeAdvisor lists it but the math from 2019 founding gives ~7 years. Could be Joe Gendre's personal trade experience predating the LLC. | Toby must confirm before using in copy. Until confirmed, use "years of trade experience" phrasing with no number, or reference founding year only. |
++| Hours of operation | CONFLICTING — Yelp says 24 hours open; GBP says closes 5 PM | Use conservative language only: "Call to schedule. Limited evening and weekend appointments available." Never publish 24/7. |
++| License number | NOT SUPPLIED | Do not display. Do not fabricate. If Toby provides a KS/MO electrical license number, add to header/footer. |
++| Contact form delivery | NOT CONFIRMED wired to email or CRM | Form must be presented as estimate-prep/call summary tool with click-to-call and mailto:jag.electric@yahoo.com fallback. Do not promise form submission reaches anyone until wired. |
++| Project photos | NOT CONFIRMED as JAG's own work | Any electrical photos used in design are representative/stock unless Toby supplies confirmed JAG job photos. Do not caption them as "our work" or "recent projects." |
++| Jacob's last name / full staff list | NOT SUPPLIED | Use first name only. Do not imply Jacob is the only technician or that Joe is field-active. |
++| Emergency / same-day service | NOT CONFIRMED | Forbidden. See Section 4. |
++| Financing or payment terms | NOT SUPPLIED | Do not mention. |
++| Warranty language | NOT SUPPLIED | Do not mention. |
++| Specific city coverage beyond the 5 listed | NOT CONFIRMED | Do not add cities to service-area pages without Toby approval. |
++
++---
++
++## 3. FORBIDDEN CLAIMS
++Wordsmith and Craig must not use any of these. No exceptions without Toby re-approval with sourced proof.
++
++- 24/7 availability or "always available"
++- Emergency service or same-day guarantee
++- Specific license numbers (until supplied)
++- Warranties or workmanship guarantees (unless Toby confirms a written policy)
++- Rankings ("best electrician in Pittsburg," "#1 rated," etc.) unless backed by a verifiable source
++- Financing available
++- Exact service radius mileage as a hard boundary (e.g., "we serve exactly 30 miles") — use "Pittsburg area and surrounding communities" language
++- Claiming stock/representative electrical photos are JAG project photos
++- Fabricating employee count, fleet size, or office count
++- CRM/form delivery confirmation until the form is actually wired
++
++---
++
++## 4. SERVICE-AREA POLICY
++
++Anchor city: Pittsburg, KS (primary market per GBP and Toby).
++Business address city: Galena, KS 66739 (display in footer/contact; not the marketed primary city).
++
+… omitted 100 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_144657_f20852
+Silent Bob. Brief is locked and filed.
+
+/home/toby/jag-electric-site/agency-handoffs/silentbob-facts.md
+
+Eight sections:
+
+1. CONFIRMED FACTS — 21 source-tagged rows Wordsmith and Craig can use without qualification.
+
+2. PLACEHOLDERS / ASSUMPTIONS — 10 flagged items including the 24-year experience claim (HomeAdvisor says it, but the 2019 founding math doesn't support it without Joe's personal trade history), the conflicting hours, the unwired form, and the unconfirmed project photos.
+
+3. FORBIDDEN CLAIMS — hard list: no 24/7, no emergency/same-day, no license numbers until supplied, no warranty language, no invented rankings, no blended ratings score, no stock photo labeling as JAG work.
+
+4. SERVICE-AREA POLICY — 5 approved cities plus Galena anchor; Joplin MO gets a carve-out with no licensing claims until MO coverage is confirmed.
+
+5. REVIEW / PROOF POLICY — 3 approved snippets verbatim, 4 platform ratings with source labels, no aggregation or fabricated names.
+
+6. ASSET NOTES — photo/logo status, what's confirmed vs. still needed.
+
+7. DOWNSTREAM CONSTRAINTS — separate blocks for Wordsmith, Chad, and Craig with exact copy rules and form/CTA policy.
+
+8. OPEN QUESTIONS FOR TOBY — 6 items in priority order, the biggest being the 24-year experience confirm and the license number.
+
+Nothing else was touched. Ready to hand to Wordsmith and Craig when you give the go.

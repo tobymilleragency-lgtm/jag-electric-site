@@ -1,0 +1,104 @@
+  ⚠ tirith security scanner enabled but not available — command scanning will use pattern matching only
+  ┊ review diff
+a/agency-handoffs/lloyd-outreach.md → b/agency-handoffs/lloyd-outreach.md
+@@ -0,0 +1,183 @@
++# Lloyd Outreach Doc — JAG Electric Site Campaign
++# Status: DRAFT — no external sends, no CRM mutations until Toby approves
++
++Generated: 2026-06-08
++Lane: Lloyd (Assistant)
++Client: JAG Electric, LLC — Joe Gendre, owner
++Purpose: Caller cockpit + booking workflow + outcome buttons + outreach template ready for Toby review and GHL Agent execution.
++
++---
++
++## 1. CONTACT RECORD (caller cockpit)
++
++Field             | Value
++------------------|-----------------------------------------------
++Business name     | JAG Electric / Jag Electric, LLC
++Owner/contact     | Joe Gendre
++Phone             | (620) 714-1125
++Email             | jag.electric@yahoo.com
++Address           | 807 E 7th St, Galena, KS 66739
++Service area      | Pittsburg KS and roughly 30-mile radius
++Primary cities    | Pittsburg, Galena, Frontenac, Girard KS; Joplin MO edge
++BBB status        | Accredited A+, since 2/20/2020
++Google rating     | 4.9 stars / 50 reviews
++Facebook          | https://www.facebook.com/jagelectricks/
++Hours (safe use)  | Call to schedule; limited evening/weekend availability
++CRM contact ID    | [PLACEHOLDER — GHL Agent to populate]
++GHL pipeline      | [PLACEHOLDER — assign after Toby approves stage map]
++GHL tags          | jag-electric, electrician, galena-ks, site-build-2026
++
++---
++
++## 2. CONTRACTOR CALLER WORKFLOW
++
++### Before the call
++1. Pull contact record above. Confirm phone (620) 714-1125 is current.
++2. Load this doc on second screen as reference.
++3. Have booking link ready (see Section 3).
++4. Have the site URL ready to share once deployed.
++
++### Opening (first 15 seconds)
++"Hi, is this Joe? Hey Joe, this is [caller name] with Go Alpha Marketing. We're building out your new JAG Electric website — I just wanted to touch base on a couple quick things so we get it right. Do you have two minutes?"
++
++### Confirm / verify during call
++- Confirm service area: "We're putting Pittsburg as your main market and about a 30-mile radius. Does that still sound right, or is there anywhere you're not taking jobs right now?"
++- Confirm hours language: "We're keeping it as 'call to schedule, limited evening and weekend availability' — fair to say?"
++- Ask about license number: "Do you want your state electrical license number on the site, or leave that off?"
++- Ask about project photos: "Any photos of your own work you'd want on the site? Even a few phone shots from a panel or a fixture job would be great."
++- Ask about booking preference: "When someone fills out the estimate form, do you want it to go straight to your email at jag.electric@yahoo.com, or do you want a phone call instead?"
++- Ask about GBP link: "Is your Google Business Profile the main one for JAG Electric in Galena? We'll link the review widget to it."
++
++### Closing
++"Perfect — we'll get that locked in. Once the site is live I'll send you a preview link. Any questions for me right now?"
++
++### Post-call actions (do not skip)
++- Log outcome in GHL using outcome buttons below.
++- Write call notes into GHL contact record.
++- If booking confirmed: send calendar invite placeholder (see Section 3).
++- If photos promised: add follow-up task in GHL — 48-hour remind.
++- If license number given: add to brief addendum, flag to Wordsmith/Forge.
++
++---
++
++## 3. BOOKING LINK WORKFLOW ASSUMPTIONS
++
++BLOCKER: No live booking link exists yet. The following assumptions hold until Craig/GHL Agent sets one up. Do not send a fake or placeholder URL to Joe.
++
++Assumed workflow once booking link is live:
++- Platform: GHL calendar or Calendly embed (Craig to confirm).
++- Appointment type: "Site review / approval call — 15 min."
++- Availability owner: Go Alpha Marketing (Toby or delegate), not Joe.
++- Link behavior: sends a confirmation email to jag.electric@yahoo.com and to Toby.
++- GHL automation: tag contact jag-electric-call-booked on booking.
++- Reminder: automated 24-hr and 1-hr SMS/email to Joe's phone/email.
++- After call: GHL outcome button triggers next-stage move.
++
++What caller says if asked for a link before it exists:
++"I'll send that over right after this call — give me just a moment to get it set up for you." Then flag to Craig immediately.
++
+… omitted 105 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_144704_54252b
+File written: /home/toby/jag-electric-site/agency-handoffs/lloyd-outreach.md
+
+Here is what is in it and why:
+
+Section 1 — Contact record / caller cockpit. All confirmed facts from the brief in one place. CRM contact ID and pipeline stage are left as placeholders because GHL Agent has not created them yet.
+
+Section 2 — Caller workflow. Opening script, verification checklist (service area, hours, license, photos, form delivery preference, GBP link), close, and post-call task list.
+
+Section 3 — Booking link workflow. Marked as a blocker because no live link exists. Full spec written for Craig to build against — platform choice, appointment type, confirmation behavior, GHL tag on booking, reminder cadence, and what the caller says if Joe asks for a link before it is ready.
+
+Section 4 — Call outcome buttons. Eight dispositions with corresponding GHL stage moves and tags. Max-attempt threshold set at 3 before Toby escalation.
+
+Section 5 — Call summary template. Drop-in GHL note format. Covers all verification items from the call workflow so nothing gets lost between call and CRM.
+
+Section 6 — Approval blockers. Eight hard stops listed explicitly: booking link, GHL pipeline creation, outbound email, license number verification, project photo authentication, GBP link confirmation, SMS compliance, and site preview share. Nothing moves on those without Toby.
+
+Section 7 — Email draft placeholder. Drafted but gated. Four clean questions, no overclaiming, no 24/7 language. Will not send until Toby approves.
+
+Handoff notes at the bottom route GHL Agent, Craig, Wordsmith, and Forge to their specific dependencies from this doc.

@@ -1,0 +1,111 @@
+  ┊ review diff
+a/agency-handoffs/wordsmith-copy.md → b/agency-handoffs/wordsmith-copy.md
+@@ -0,0 +1,785 @@
++# JAG Electric — Customer-Facing Copy
++**Lane:** Wordsmith | **Date:** 2026-06-08
++**For:** Craig/Forge to consume for site build
++
++---
++
++## Verified Facts Used in This Document
++
++- Business: JAG Electric, LLC
++- Owner: Joe Gendre
++- Phone: (620) 714-1125
++- Email: jag.electric@yahoo.com
++- Address: 807 E 7th St, Galena, KS 66739
++- BBB: Accredited, A+ rated, since 2/20/2020
++- Google: 4.9 stars, 50 reviews
++- HomeAdvisor: 4.9 stars, 45 reviews
++- Facebook: 100% recommend, 20 reviews
++- Experience: 24 years listed by HomeAdvisor
++- Hours: Call to schedule. Limited evening and weekend appointments available. (Do NOT use 24/7 language.)
++- Service area: Pittsburg KS and roughly 30-mile radius. City pages exist for Pittsburg, Galena, Joplin MO, Frontenac, Girard.
++
++---
++
++## META TITLES & DESCRIPTIONS
++
++### / (Homepage)
++**Title:** JAG Electric — Licensed Electrician Serving Pittsburg, KS and the Surrounding Area
++**Description:** JAG Electric is a trusted, BBB A+ rated electrical contractor based in Galena, KS. Panel upgrades, rewiring, fixtures, outlets, remodels, and commercial work. Call (620) 714-1125.
++
++### /services
++**Title:** Electrical Services | JAG Electric — Pittsburg, KS Area
++**Description:** Residential and commercial electrical services from a BBB-accredited, 4.9-star electrician. Panel upgrades, rewiring, lighting, outlets, switches, remodels, and new construction.
++
++### /services/panel-upgrades
++**Title:** Electrical Panel Upgrades | JAG Electric — Pittsburg, KS
++**Description:** Outdated or overloaded panel? JAG Electric handles panel upgrades and replacements for homes and businesses in the Pittsburg, KS area. A+ BBB, 4.9 stars. Call (620) 714-1125.
++
++### /services/rewiring
++**Title:** Home Rewiring | JAG Electric — Galena, KS
++**Description:** Outdated wiring is a safety risk. JAG Electric provides residential rewiring services for older homes and remodels throughout the Pittsburg and Galena area.
++
++### /services/lighting-fixtures
++**Title:** Lighting Fixture Installation | JAG Electric — Pittsburg Area
++**Description:** New fixtures, recessed lighting, ceiling fans, and more. JAG Electric installs and replaces lighting throughout Southeast Kansas. Call for a free estimate.
++
++### /services/outlets-switches
++**Title:** Outlet & Switch Repair and Installation | JAG Electric
++**Description:** Worn outlets, dead switches, GFCI upgrades, and new circuits. JAG Electric handles outlet and switch work for homeowners and businesses in the Pittsburg area.
++
++### /services/remodel-new-construction
++**Title:** Electrical for Remodels & New Construction | JAG Electric
++**Description:** Adding onto your home or starting from the ground up? JAG Electric provides electrical wiring for additions, remodels, and new construction in Southeast Kansas.
++
++### /services/commercial-electrical
++**Title:** Commercial Electrical Contractor | JAG Electric — SE Kansas
++**Description:** JAG Electric handles commercial wiring, panel work, and electrical services for businesses across Southeast Kansas. BBB accredited, free estimates. (620) 714-1125.
++
++### /service-area
++**Title:** Service Area | JAG Electric — 30-Mile Radius of Galena, KS
++**Description:** JAG Electric serves Pittsburg, Galena, Frontenac, Girard, Joplin MO, and surrounding communities across Southeast Kansas and Southwest Missouri.
++
++### /service-area/pittsburg-ks
++**Title:** Electrician in Pittsburg, KS | JAG Electric
++**Description:** JAG Electric provides electrical services in Pittsburg, KS — panel upgrades, wiring, fixtures, outlets, and more. BBB A+, 4.9 stars. Call (620) 714-1125.
++
++### /service-area/galena-ks
++**Title:** Electrician in Galena, KS | JAG Electric — Local Electrical Contractor
++**Description:** JAG Electric is based in Galena, KS. Serving local homeowners and businesses with licensed electrical work since 2019. Free estimates. (620) 714-1125.
++
++### /service-area/joplin-mo
++**Title:** Electrician Near Joplin, MO | JAG Electric
++**Description:** JAG Electric serves customers near Joplin, MO with residential and commercial electrical work. Based in Galena, KS — just across the state line. Call (620) 714-1125.
++
++### /service-area/frontenac-ks
++**Title:** Electrician in Frontenac, KS | JAG Electric
++**Description:** Need an electrician in Frontenac? JAG Electric serves Frontenac and the surrounding Crawford County area. Panels, wiring, fixtures, and more. (620) 714-1125.
++
++### /service-area/girard-ks
+… omitted 707 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_144659_164bf3
+785 lines written and verified. Here's what's in the file:
+
+/home/toby/jag-electric-site/agency-handoffs/wordsmith-copy.md
+
+What it covers:
+
+META — Title and description for every required route (17 pages including all service and city sub-pages)
+
+HOMEPAGE — Hero headline/subhead, trust strip, service card copy, why-us section, service area callout, review callout, CTA strip
+
+ALL 6 SERVICE PAGES — Panel upgrades, rewiring, lighting/fixtures, outlets/switches, remodel/new construction, commercial. Each has a lead paragraph, body copy, bulleted service scope, and honest CTA.
+
+ALL 5 CITY PAGES — Pittsburg, Galena, Frontenac, Girard, Joplin. Written with local posture, not generic city-token swaps. Joplin uses "near Joplin" language — not claiming it as a primary market.
+
+ABOUT PAGE — Joe Gendre named, BBB/review credentials accurate, no invented claims.
+
+REVIEWS PAGE — Only the three verified quotes used. Clear instruction to Craig: do not invent review text.
+
+ESTIMATE PREP PAGE — Full form field labels with placeholder text, section headers, dropdown options, upload slot copy, and an honest "this prep tool / we'll follow up by phone" note for the fallback state. No fake instant-response claims.
+
+EMAIL NURTURE (3 emails) — Immediate confirmation, 2–3 day follow-up, 5–7 day value/trust close. No SMS claims, no automation claims.
+
+30-SEC VIDEO SCRIPT — Hook, problem/authority, proof, quote card, CTA, end card. Voiceover + on-screen text + visual direction for Eddie. Joe on camera flagged as a strong option.
+
+CTA REFERENCE — Single source of truth for every button label used across the site.
+
+TRUTH BOUNDARIES — 9 explicit rules for Craig/Forge QA: no 24/7 claims, no license number, no warranty, no same-day guarantee, no stock photos presented as JAG work, honest fallback on unconnected forms.

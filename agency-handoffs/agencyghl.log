@@ -1,0 +1,103 @@
+  ⚠ tirith security scanner enabled but not available — command scanning will use pattern matching only
+  ┊ review diff
+a/agency-handoffs/ghl-package.md → b/agency-handoffs/ghl-package.md
+@@ -0,0 +1,466 @@
++# Jag Electric — Draft-Only GHL / GBP Activation Package
++
++Prepared by: GHL Agent
++Prepared timestamp: 2026-06-08T14:47:24-05:00
++Package status: DRAFT ONLY — NOT PUSHED
++Proof handle: `JAG-GHL-PACKAGE-DRAFT-20260608-144724-CDT`
++Source brief: `/home/toby/jag-electric-site/agency-handoffs/shared-brief.md` plus user-provided shared brief in task
++
++## Approval gate — hard stop
++
++NO GHL MUTATION HAS BEEN PERFORMED.
++NO GBP POST HAS BEEN PUBLISHED.
++NO EMAIL, SMS, SOCIAL POST, REVIEW REQUEST, FORM, WORKFLOW, PIPELINE, CONTACT, OPPORTUNITY, TAG, CUSTOM FIELD, TASK, OR NOTE HAS BEEN CREATED OR CHANGED.
++
++This document is a draft-only activation package for Toby review. Nothing in this package may be pushed to GoHighLevel, Google Business Profile, Facebook, or any live CRM/location until Toby explicitly approves the exact push scope.
++
++Required approval wording before any live action:
++
++`Toby approval: Push Jag Electric GHL/GBP package [specific sections approved] to [specific GHL location/account and/or GBP profile].`
++
++If the GHL location/account ID, GBP profile, connected social account, or approved scope is missing, stop and ask. Do not infer it.
++
++## Business identity and truth boundaries
++
++Business:
++- JAG Electric / Jag Electric, LLC
++- Electrician / electrical contractor
++- 807 E 7th St, Galena, KS 66739
++- Phone: (620) 714-1125
++- Email: jag.electric@yahoo.com
++- Owner/principal from BBB: Joe Gendre
++- Service area language: Galena-based, serving Pittsburg, KS and nearby communities within roughly a 30-mile radius
++
++Allowed trust facts:
++- BBB accredited since 2/20/2020, A+ rated
++- Business started 3/7/2019; incorporated 4/2/2019; LLC
++- Google rating supplied by Toby: 4.9 from 50 Google reviews
++- Facebook: 354 likes/followers; 100% recommend based on 20 reviews
++- HomeAdvisor: 4.9 from 45 reviews; approved; Master Electrician and Panel Upgrades listed; 24 years of experience listed by HomeAdvisor
++
++Do not claim:
++- License number unless Toby supplies it
++- 24/7 emergency service
++- Guaranteed same-day service
++- Warranty or financing
++- #1/ranking claims
++- CRM automation, instant SMS, or live form delivery until tested and proven
++- Stock or representative photos as real JAG project photos
++
++## Proposed GHL location/account target
++
++Status: REQUIRED BEFORE PUSH
++
++Fields needed from Toby or verified GHL MCP read-only check after approval to inspect:
++- GHL agency/location name
++- GHL location ID
++- Existing pipelines/workflows/forms/tags/custom fields for JAG Electric, if any
++- Connected email sending domain/status
++- A2P/SMS status
++- Connected Facebook/GBP/social accounts, if any
++
++Packaging recommendation:
++- Reconcile existing GHL infrastructure first. Do not duplicate a working lead pipeline, form, or workflow if one exists.
++- If no existing JAG location infrastructure exists, create only after approval using the proposed schema below.
++
++## Proposed contact custom fields
++
++Custom field folder suggestion: `Jag Electric Intake`
++
++Draft fields to create or map, subject to existing-field reconciliation:
++
++1. `JAG Project Type`
++   - Type: dropdown / single select
++   - Options: Panel upgrade; Rewiring; Lighting / fixture install; Outlets / switches; Remodel / new construction; Commercial electrical; Other
++
++2. `JAG Property Type`
++   - Type: dropdown / single select
++   - Options: Residential; Commercial; Rental / investment property; Not sure
+… omitted 388 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_144704_55aac3
+GHL Agent complete.
+
+Created:
+`/home/toby/jag-electric-site/agency-handoffs/ghl-package.md`
+
+Proof handle:
+`JAG-GHL-PACKAGE-DRAFT-20260608-144724-CDT`
+
+Verified file exists and contains:
+- Draft-only GHL fields/tags/stages/forms package
+- Draft GBP post package
+- Required proof handles
+- Explicit no-mutation/no-send approval gate
+- Truth-boundary guardrails for Jag Electric
+
+No GHL mutation performed.
+No GBP mutation or publish performed.
+No other files mutated.

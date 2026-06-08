@@ -1,0 +1,106 @@
+  ⚠ tirith security scanner enabled but not available — command scanning will use pattern matching only
+  ┊ review diff
+a/agency-handoffs/max-email.md → b/agency-handoffs/max-email.md
+@@ -0,0 +1,602 @@
++# Max — Jag Electric Email Package
++# Status: DRAFT-ONLY — awaiting Toby approval before any send or provider activation
++# Produced by: Max (agencyemail profile)
++# Date: 2026-06-08
++# No sends executed. No provider mutations made. Brevo/GHL tool not connected to this profile — listed as blocker below.
++
++---
++
++## CAMPAIGN RECORD
++
++Business: JAG Electric, LLC
++Owner: Joe Gendre
++Phone: (620) 714-1125
++Email: jag.electric@yahoo.com
++Address: 807 E 7th St, Galena, KS 66739
++Service area: Pittsburg KS and ~30-mile radius
++Verified proof: 4.9 stars / 50 Google reviews, BBB A+ since 2020, 4.9 HomeAdvisor / 45 reviews, 100% recommend Facebook
++Services: panel upgrades, rewiring, lighting/fixtures, outlets/switches, remodel/new construction, commercial electrical
++Free estimates: yes
++Experience: 24 years (HomeAdvisor-listed)
++Hours claim allowed: call to schedule; limited evening/weekend appointments available
++Truth limits: no 24/7, no emergency/same-day guarantees, no license numbers, no warranties, no financing claims
++
++---
++
++## SENDING BLOCKERS (must resolve before any activation)
++
++BLOCKER 1 — Email provider not connected.
++  Brevo API/MCP tool is not configured in the agencyemail profile for this run.
++  GHL email tool also not confirmed active.
++  Resolution: Toby or Frenchie must wire the Brevo API key (or confirm GHL email) and confirm the sender domain is verified (SPF/DKIM/DMARC on jag.electric@yahoo.com or a dedicated domain).
++
++BLOCKER 2 — Sender domain deliverability risk.
++  jag.electric@yahoo.com is a Yahoo consumer mailbox, not a custom domain.
++  Sending bulk email FROM a Yahoo address will trigger spam filters.
++  Resolution: Joe needs a custom domain sender (e.g. joe@jagelectricllc.com or hello@jagelectric.com) with SPF/DKIM set up before any sequence fires. This is infrastructure, not optional.
++
++BLOCKER 3 — List does not exist yet.
++  The estimate-prep form on the site is not live and is not confirmed wired to any list.
++  Resolution: Craig/Forge must confirm the /estimate-prep form posts to a tagged list in the chosen email provider before sequence 1 can activate.
++
++BLOCKER 4 — Toby approval required.
++  No broadcast or sequence activates without explicit Toby sign-off on copy and segmentation.
++
++---
++
++## SEGMENTATION PLAN
++
++Segment A — Estimate-prep form submitters (residential intent)
++  Source: /estimate-prep form on jagelectric site
++  Tag: jag-estimate-residential
++  Trigger: form submit
++
++Segment B — Estimate-prep form submitters (commercial intent)
++  Source: /estimate-prep form — commercial checkbox or service selected
++  Tag: jag-estimate-commercial
++  Trigger: form submit
++
++Segment C — Past customers (if Joe provides a list)
++  Source: Joe's existing customer contact list (must be permission-based — confirm before importing)
++  Tag: jag-past-customer
++  Use: broadcast newsletters, GBP review requests, referral asks
++
++Segment D — 90-day dormant leads
++  Source: Seg A or B with no open/click in 90 days, no booking confirmed
++  Tag: jag-dormant
++  Trigger: automated 90-day inactivity check
++
++Suppress immediately: hard bounces, unsubscribes, any address Joe flags as deceased/closed.
++Do not send to purchased lists under any circumstances.
++
++---
++
++## SEQUENCE 1 — ESTIMATE-PREP NURTURE (Residential)
++### 5-email series: form submit → booked call
++### Trigger: Segment A tag applied
++### Goal: turn an estimate request into a scheduled electrician visit
++
+… omitted 524 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_144703_e69d6e
+Done. File written to:
+
+/home/toby/jag-electric-site/agency-handoffs/max-email.md
+
+Here is what got produced and why:
+
+SEQUENCES
+- Sequence 1 (Residential, 5 emails): form submit → days 2, 4, 7, 14. Confirms receipt, social proof from real reviews, sets up the estimate visit, gentle follow-ups, clean close. One CTA per email. All copy inside truth boundaries — no invented urgency, no warranty claims, no 24/7.
+- Sequence 2 (Commercial, 3 emails): shorter cadence, scoped to commercial project leads. Same truth limits.
+- Post-job flow (2 emails): thank you + Google review ask, referral ask. Google review link marked as a placeholder Craig must fill before activation.
+- Re-engagement (2 emails): 90-day dormant → 97-day final, then suppress. Keeps the list clean.
+
+BROADCASTS
+- Monthly newsletter template with seasonal fill-in structure
+- Spring/fall seasonal push
+- Standalone GBP review request for past customers outside the automated flow
+
+BLOCKERS FLAGGED
+Four blockers are listed at the top. The two biggest ones are infrastructure: Yahoo consumer mailbox cannot be the bulk sender (will land in spam), and the estimate-prep form must be wired to the provider list before any sequence fires. No sends happen until those are resolved AND Toby approves.
+
+Subject line options: 5 per email, one chosen with rationale. Preview text written for every email. Unsubscribe footer on every single one.

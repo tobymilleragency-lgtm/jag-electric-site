@@ -1,0 +1,96 @@
+  ⚠ tirith security scanner enabled but not available — command scanning will use pattern matching only
+  ┊ review diff
+a/agency-handoffs/chad-media-plan.md → b/agency-handoffs/chad-media-plan.md
+@@ -0,0 +1,296 @@
++# Chad media plan — JAG Electric
++
++Status: early media_plan only. No spend authorized. No ad account, CRM, website, tracking, or public asset mutations made.
++
++## Target geography
++
++Primary service radius:
++- Pittsburg, KS and nearby communities within roughly 30 miles.
++- Business base: Galena, KS.
++
++Initial paid geography recommendation:
++- Radius around Pittsburg, KS, with Galena included.
++- Keep radius conservative until lead quality is proven.
++- Do not overclaim every nearby town as a verified top market.
++
++Priority local pages to align with campaigns:
++- /service-area/pittsburg-ks
++- /service-area/galena-ks
++- /service-area/joplin-mo
++- /service-area/frontenac-ks
++- /service-area/girard-ks
++
++Notes:
++- Joplin, MO can be tested because it is in the site route list, but launch copy should not imply it is the highest-volume market unless JAG confirms that.
++- Avoid emergency or 24/7 geography/service messaging. Use “call to schedule” and “limited evening/weekend appointments” only.
++
++## Working hypotheses
++
++H1 — Trust-first local electrician demand:
++- Homeowners who need panel, wiring, outlet, fixture, or remodel electrical work will respond best to a trust-first message backed by verified reputation signals.
++- Proof available: 4.9 Google rating with 50 reviews supplied by Toby, 100% Facebook recommendation based on 20 reviews, BBB A+ accredited, HomeAdvisor 4.9 from 45 reviews.
++- Win condition before scaling: qualified calls or estimate-prep submissions at a sustainable cost, with project type and service area captured.
++
++H2 — Panel upgrades and remodel/new-construction jobs produce higher-intent leads than broad “electrician near me” messaging:
++- Panel upgrades, wiring, remodels, new construction, and commercial service are more concrete needs than generic electrician awareness.
++- Test service-specific campaigns before broad local branding spend.
++- Win condition: higher conversion rate and clearer project-fit notes than broad local ads.
++
++H3 — Pittsburg-area homeowners need a low-friction path from “I have an electrical issue” to “I know what to ask when I call”:
++- The estimate-prep page can reduce friction if positioned as a fast call-prep tool, not a fake automated quote engine.
++- Win condition: users submit enough detail for JAG to prioritize follow-up, or click-to-call from the estimate-prep path.
++
++H4 — Premium electrical visual identity can cut through local contractor sameness:
++- The dark graphite / electric cyan / copper conductor direction should be used in creative to make JAG memorable without cheesy lightning gimmicks.
++- Win condition: above-baseline CTR and click quality versus plain stock-contractor creative.
++
++## Channels
++
++Phase 0 — pre-launch / no spend:
++- Website route readiness check by Forge/Craig.
++- Tracking readiness check.
++- Creative asset inventory.
++- Organic/reputation alignment where available.
++
++Phase 1 — paid search intent test, after approval:
++- Google Search Ads for high-intent service terms.
++- Best fit for urgent/local electrician intent without making 24/7 claims.
++- Campaign groups should map to service pages:
++  - Panel upgrades
++  - Rewiring
++  - Lighting / fixtures
++  - Outlets / switches
++  - Remodel / new construction
++  - Commercial electrical
++
++Phase 2 — Meta local trust and retargeting test, after approval:
++- Facebook/Instagram local radius ads.
++- Best fit for visual trust, homeowner reminders, and retargeting site visitors.
++- Use reputation, service-area circuit board mechanic, and estimate-prep CTA.
++- Avoid fake project imagery or implying stock images are JAG jobs.
++
++Phase 3 — retargeting, after tracking proof:
++- Retarget website visitors and estimate-prep starters if Meta Pixel/Google tags are verified.
++- Message sequence:
++  - Trust proof
++  - Service-specific reminder
++  - Call-to-schedule / estimate-prep nudge
++
+… omitted 218 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_144701_8d220a
+Chad here. Done.
+
+Created and verified:
+`/home/toby/jag-electric-site/agency-handoffs/chad-media-plan.md`
+
+Scope held:
+- Early media_plan only
+- No spend
+- No external mutation
+- No other files changed by me
+- File includes target geography, hypotheses, channels, audiences, offers, creative angles, budget guardrails, conversion tracking assumptions, and launch blockers.

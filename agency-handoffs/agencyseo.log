@@ -1,0 +1,117 @@
+  ┊ review diff
+a/agency-handoffs/niko-seo-calendar.md → b/agency-handoffs/niko-seo-calendar.md
+@@ -0,0 +1,583 @@
++# Niko SEO + Content Handoff — JAG Electric, LLC
++**Produced by:** Niko (organic visibility lane)
++**Date:** 2026-06-08
++**Client:** JAG Electric, LLC — 807 E 7th St, Galena, KS 66739 — (620) 714-1125
++**Primary market:** Pittsburg, KS and 30-mile service radius
++**Handoff consumers:** Forge (site build), Craig (deploy), GHL Agent (GBP posts after Toby approval)
++
++---
++
++## 1. KEYWORD MAP
++
++### Intent tier 1 — Local transactional (highest value; these convert)
++
++| Target keyword | Est. intent | Difficulty context | Primary route |
++|---|---|---|---|
++| electrician pittsburg ks | Buy/call | Low-med; few authoritative local pages | / + /service-area/pittsburg-ks |
++| electrical contractor pittsburg kansas | Buy/call | Low; long-tail with state | / + /service-area/pittsburg-ks |
++| electrician near me pittsburg | Buy/call | Driven by GBP proximity | GBP > / |
++| licensed electrician galena ks | Buy/call | Very low; thin competition | /service-area/galena-ks |
++| electrician joplin mo area | Buy/call | Medium; Joplin has more competition | /service-area/joplin-mo |
++| electrician frontenac ks | Buy/call | Very low | /service-area/frontenac-ks |
++| electrician girard ks | Buy/call | Very low | /service-area/girard-ks |
++| electrical contractor southeast kansas | Buy/call | Low | /service-area |
++| emergency electrician pittsburg ks | Buy/call | Low; NOTE: do NOT use 24/7 language; use "call to schedule" | /service-area/pittsburg-ks |
++
++### Intent tier 2 — Service-specific transactional
++
++| Target keyword | Est. intent | Primary route |
++|---|---|---|
++| electrical panel upgrade pittsburg ks | Buy/call | /services/panel-upgrades |
++| panel replacement pittsburg kansas | Buy/call | /services/panel-upgrades |
++| breaker box upgrade galena ks | Buy/call | /services/panel-upgrades |
++| home rewiring pittsburg ks | Buy/call | /services/rewiring |
++| electrical rewiring service pittsburg kansas | Buy/call | /services/rewiring |
++| light fixture installation pittsburg ks | Buy/call | /services/lighting-fixtures |
++| ceiling fan installation pittsburg kansas | Buy/call | /services/lighting-fixtures |
++| outlet installation pittsburg ks | Buy/call | /services/outlets-switches |
++| gfci outlet installation pittsburg kansas | Buy/call | /services/outlets-switches |
++| electrical remodel pittsburg ks | Buy/call | /services/remodel-new-construction |
++| new construction electrician pittsburg kansas | Buy/call | /services/remodel-new-construction |
++| commercial electrician pittsburg ks | Buy/call | /services/commercial-electrical |
++| commercial electrical contractor southeast kansas | Buy/call | /services/commercial-electrical |
++
++### Intent tier 3 — Informational / trust-builders (rank for AI overviews + featured snippets)
++
++| Target keyword | Content angle | Route |
++|---|---|---|
++| how much does an electrical panel upgrade cost kansas | Cost guide, no hard numbers | Blog post 1 |
++| signs you need to rewire your home | Symptom/safety guide | Blog post 2 |
++| how to find a licensed electrician in kansas | Vetting guide; positions JAG as the answer | Blog post 3 |
++| what is a master electrician | Authority piece; tie to JAG's 24 yrs experience | Blog post 4 |
++| gfci outlet vs regular outlet | Educational; short-form | Blog post 5 |
++| electrical safety checklist for homeowners | Safety list; high share value | Blog post 6 |
++
++### GBP-specific keyword hooks (use in posts, services, Q&A)
++
++- "A+ BBB-rated electrician Pittsburg KS"
++- "veteran-owned electrician Galena KS" (if Joe Gendre is a veteran — do NOT assert unless confirmed; if not, remove this line)
++- "4.9-star electrician Pittsburg Kansas"
++- "panel upgrades Pittsburg KS"
++- "residential and commercial electrical contractor Galena Kansas"
++
++---
++
++## 2. ON-PAGE SEO REQUIREMENTS
++
++Apply these rules site-wide before per-route specs:
++
++- NAP must appear on every page in crawlable text (not image): JAG Electric, LLC / 807 E 7th St, Galena, KS 66739 / (620) 714-1125
++- Canonical tag on every route; no trailing-slash duplication
++- Mobile-first; Core Web Vitals target: LCP under 2.5s, CLS under 0.1
++- Internal links: every service page links back to /services index AND to /service-area/pittsburg-ks (highest-value city page)
++- Every city page links to at least 2 relevant service pages
++- Reviews page links from every service page CTA section
++- Estimate-prep page linked from header nav AND from every service page CTA button
++- robots.txt: allow all; disallow /admin or /api if present
++- sitemap.xml: include all routes below; submit to GSC after launch
++- No keyword stuffing in H1 — one clean H1 per page using exact-match or close variant of target keyword
+… omitted 505 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_144700_541f7f
+File written. Here is what is inside it and why each section matters:
+
+/home/toby/jag-electric-site/agency-handoffs/niko-seo-calendar.md
+
+---
+
+WHAT GOT BUILT
+
+**1. Keyword Map — 3 tiers**
+Tier 1 is local transactional: "electrician pittsburg ks", city-specific variants, and the service-area long tails. These are the calls-and-money terms. Tier 2 is service-specific transactional — one term per route so every service page owns a real query. Tier 3 is informational blog targets aimed at featured snippets and AI overviews, which build topical authority and funnel visitors who are researching before they call.
+
+**2. On-page rules site-wide**
+Canonical tags, mobile-first requirements, Core Web Vitals targets, and the internal link mandate — every service page must link to Pittsburg and to estimate-prep, every city page must link back to services. These run before Forge touches a single component.
+
+**3. Route-by-route: slug / H1 / title tag / meta description**
+Every one of the 19 routes in the brief has exact copy. Title tags are under 60 chars, metas under 160. Nothing generic — each is tuned to its target keyword and includes the phone number or a conversion signal where it fits.
+
+**4. Schema notes**
+LocalBusiness + Electrician dual @type on homepage and city pages. Service schema on all 6 service routes. BreadcrumbList everywhere. FAQPage on 3 high-value routes. Review schema on /reviews. The JSON-LD blocks are ready to drop in. Joplin note is in there — JAG is KS-licensed so the Joplin page copy is framed as "near Joplin" not "serving Joplin MO."
+
+**5. Internal link plan**
+Hub-and-spoke with homepage as center. Every spoke links back, links to estimate-prep, and links laterally to one or two related services. Footer NAP + full service/city link block specified.
+
+**6. GBP post drafts — 8 posts, 2 months**
+Each is ready to queue in GHL for Toby approval before push. Service spotlights, review pull-quote post, who-we-are trust post, service area callout, commercial callout, fixtures, and a Q&A seed post. Five owner-posted Q&A entries included.
+
+**7. 30-day content + ad calendar**
+Week-by-week, day-by-day. GSC sitemap submission day 1. GBP post cadence every 5-7 days. Three blog posts timed with internal link additions. Ad draft gated on day 28 — draft only, no spend, LSA structure for Toby to approve with license upload requirement called out explicitly.
+
+**8. NAP consistency anchor**
+Exact canonical format for every citation, on-page mention, and GBP field. No variations.
+
+Nothing else in the repo was touched. Forge and Craig can consume this directly.

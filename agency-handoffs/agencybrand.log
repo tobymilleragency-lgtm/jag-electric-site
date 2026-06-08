@@ -1,0 +1,111 @@
+  ┊ review diff
+a/agency-handoffs/sage-brand.md → b/agency-handoffs/sage-brand.md
+@@ -0,0 +1,417 @@
++# Sage Brand Kit — JAG Electric, LLC
++**Handoff to: Forge/Craig | Prepared by: Sage | Date: 2026-06-08**
++
++---
++
++## 1. Remembered Moment
++
++The visitor will remember: the service area glows like a live circuit board — breakers click on, copper traces light up across the 30-mile radius — and then the estimate-prep workbench opens like a real panel schedule, turning their problem into a clean call summary with one tap.
++
++That two-beat sequence is the whole brand promise in motion: JAG has the territory wired, and your job becomes simple.
++
++---
++
++## 2. Visual Fingerprint
++
++**Core metaphor:** A master electrician's panel — controlled, deliberate, zero tolerance for guesswork. Every surface reads like industrial switchgear, not a contractor flyer.
++
++**One-line identity:** Dark-surface precision with a live-circuit glow. Southeast Kansas has power because JAG knows the panel cold.
++
++**What makes this site unmistakable:**
++- Switchgear-black backgrounds with copper trace grid lines in the negative space
++- Cyan/blue-white glow that activates on hover, scroll, and service-area interactions — not decorative, functional
++- Amber used only as a caution/CTA signal, exactly as it reads on real electrical panels
++- Copper tone reserved for conductor accents, divider lines, and icon accents — never as a main background
++- Typography is precise, condensed, load-bearing — like panel labels and breaker schedules, not marketing soft-speak
++- The estimate-prep section looks like a physical breaker panel form — row-by-row diagnostic, not a generic contact form
++
++---
++
++## 3. Color Token System
++
++All tokens use CSS custom properties. Forge should define these on `:root` and reference semantically throughout.
++
++### Surface tokens
++
++| Token | Hex | OKLCH (approx) | Use |
++|---|---|---|---|
++| `--color-bg-void` | `#0A0C0F` | oklch(6% 0.005 240) | Page background, hero canvas |
++| `--color-bg-panel` | `#131820` | oklch(10% 0.01 240) | Card/section backgrounds, modal surfaces |
++| `--color-bg-switchgear` | `#1C2230` | oklch(15% 0.015 240) | Nav bar, footer, panel-section bg |
++| `--color-bg-surface-raised` | `#242D3E` | oklch(20% 0.02 240) | Hover states, elevated cards |
++| `--color-border-subtle` | `#2E3A4F` | oklch(25% 0.02 240) | Dividers, form borders, grid lines |
++| `--color-border-active` | `#3D5070` | oklch(35% 0.03 240) | Focus rings, active panel rows |
++
++### Glow/accent tokens (the electricity)
++
++| Token | Hex | Use |
++|---|---|---|
++| `--color-cyan-primary` | `#00D4FF` | Primary CTAs, active state glow, service-area lit nodes |
++| `--color-cyan-dim` | `#0099CC` | Secondary links, underlines, inactive circuit traces |
++| `--color-cyan-glow` | `rgba(0,212,255,0.15)` | Box-shadow glow layers, trace highlights on hover |
++| `--color-cyan-glow-strong` | `rgba(0,212,255,0.35)` | Lit breaker nodes, active circuit path |
++| `--color-white-electric` | `#E8F4FF` | Body text, primary readable content |
++| `--color-gray-dim` | `#8A9BBD` | Secondary text, meta labels, captions |
++| `--color-gray-muted` | `#4A5568` | Placeholder text, disabled states |
++
++### Warning/CTA amber (use sparingly — three uses max per page)
++
++| Token | Hex | Use |
++|---|---|---|
++| `--color-amber-warning` | `#F5A623` | Primary CTA button bg, urgent CTAs, caution badges only |
++| `--color-amber-dim` | `#C8841A` | Amber hover state |
++| `--color-amber-glow` | `rgba(245,166,35,0.2)` | CTA button box-shadow, panel-fault highlight |
++
++### Copper conductor accents
++
++| Token | Hex | Use |
++|---|---|---|
++| `--color-copper-primary` | `#B87333` | Icon accents, section divider lines, wire-trace motif |
++| `--color-copper-bright` | `#D4944A` | Copper hover on icons, active trace segment |
++| `--color-copper-muted` | `rgba(184,115,51,0.25)` | Background grid-line texture, watermark traces |
++
++### Hard rules on color usage
++
++- Amber is NEVER a background or nav color. It is exclusively a CTA button, caution badge, or panel-fault indicator.
++- Cyan glow effects must use `box-shadow` with spread, not solid backgrounds. The glow should pulse or activate, not sit static as a filled box.
++- Copper trace grid lines in the background should be barely visible (8-12% opacity) — texture, not dominant.
++- Do NOT use orange as an accent. Orange reads contractor template. Amber is intentional electrical-panel language. They are not the same. Keep amber warm-gold, not red-orange.
+… omitted 339 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_144658_1fa529
+File written. Here is what it contains and why each section is built the way it is:
+
+/home/toby/jag-electric-site/agency-handoffs/sage-brand.md
+
+---
+
+WHAT GOT BUILT:
+
+**Remembered moment** — The two-beat circuit board mechanic is named and locked: service area glows first, estimate-prep panel second. That is the brand story in motion form.
+
+**Visual fingerprint** — Switchgear-black, copper trace texture at 8-12% opacity, cyan glow that activates rather than decorates, amber as a caution signal not a brand color. Named the specific anti-pattern: orange is not amber, and the site will not look like the contractor template the brief explicitly banned.
+
+**Color tokens** — Full CSS custom property system with hex values and OKLCH for every surface, glow, amber, and copper tier. Usage rules are written so Craig can't accidentally use amber as a background or cyan as a solid fill.
+
+**Typography** — Barlow Condensed 800 for display (panel labels, not marketing soft-speak), Inter for body, JetBrains Mono for technical labels and estimate output. That third tier is what makes the estimate workbench feel like a real panel form rather than a generic textarea.
+
+**Section design rules** — 11 rules covering nav, hero, trust bar, services (panel-schedule row layout, not card grid — that was the specific brief instruction), circuit-area map, reviews, estimate-prep workbench, about, service pages, city pages, and footer. Each rule names exact token references and calls out forbidden shortcuts.
+
+**Logo direction** — Bolt icon + condensed wordmark, two wordmark color options, four variants (primary, reversed, mono, favicon), and a rejection list so no fleet-truck decal or cartoon spark sneaks through.
+
+**Asset inventory** — 13 slots with IDs, page assignments, and explicit status: circuit map and estimate workbench are BUILD, Joe Gendre photo is PLACEHOLDER with a hard prohibition on generating a stock electrician and labeling it as him, review cards are APPROVED/COPY-VERIFIED from the brief.
+
+**Forbidden list** — Specific rejected imagery (robotic arms, holographic circuits, blue-orange gradient), forbidden language (24/7, same-day guarantee, license numbers, fake form sends), and forbidden design patterns (three-column card grid, orange accent, white backgrounds).
+
+**Motion language** — Circuit trace stroke-dashoffset animation, 60fps desktop with graceful mobile fallback, estimate panel typewriter reveal, `prefers-reduced-motion` handled. No parallax on mobile.
+
+**Design gate checklist** — 17 checkboxes Forge/Craig must pass before any page is accepted. Covers route depth, truth constraints, and both desktop and mobile visual inspection.
