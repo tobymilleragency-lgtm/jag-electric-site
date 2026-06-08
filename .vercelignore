@@ -1,0 +1,8 @@
+# Proof artifacts are for local/Git QA only, never production deploy uploads.
+proof/
+
+# Local/runtime noise
+.git/
+node_modules/
+.DS_Store
+*.log
