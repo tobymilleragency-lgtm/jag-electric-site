@@ -1,0 +1,103 @@
+  ┊ review diff
+a/agency-handoffs/sage-revision-assets.md → b/agency-handoffs/sage-revision-assets.md
+@@ -0,0 +1,837 @@
++# Sage Revision — Photo & Visual Asset Inventory
++# JAG Electric, LLC — Revision 2026-06-08
++# Prepared by: Sage | Consumes: shared-brief.md, sage-brand.md
++# Handoff to: Forge/Craig (implementation), Eddie (motion/video), Rex (photo sourcing)
++
++---
++
++## REVISION PURPOSE
++
++The existing brand and design system (sage-brand.md) is structurally sound and stays intact.
++This document adds what was missing: a slot-by-slot photo/visual asset inventory for every
++route, a representative-photo labeling policy, visual quality minimums, color/type refinements
++from review, and a hard banned-imagery registry.
++
++Forge/Craig: consume both sage-brand.md and this file. This file takes precedence on
++photo-slot decisions. Do not remove photo slots that passed prior QA — this is slot-level
++audit only.
++
++---
++
++## PHOTO LABELING POLICY (Non-Negotiable)
++
++These rules apply to every image on the site regardless of source:
++
++REAL CONFIRMED PHOTO
++  - A photo supplied directly by Toby or Joe Gendre from actual JAG Electric jobs.
++  - May be labeled in alt text as the scene it depicts.
++  - No disclaimer overlay required — just honest descriptive alt text.
++  - Status tag in this doc: REAL/CONFIRMED
++
++REPRESENTATIVE PHOTO
++  - A stock, licensed, or generated image depicting electrical work of the same type
++    JAG performs, but NOT from a JAG job.
++  - MUST carry an honest alt text: e.g. "Electrician upgrading a residential breaker panel
++    — representative image" — never "JAG Electric technician installing panel."
++  - Internally tagged in code comments: <!-- representative photo, not a JAG job -->
++  - Status tag in this doc: REPRESENTATIVE/[source]
++  - Customer-facing pages must NOT include the words "planning example," "generated
++    placeholder," "visual proof," "asset plan," "showpiece," or "agency" anywhere visible.
++
++GENERATED IMAGE
++  - An AI-generated photo-realistic image of electrical work.
++  - Same rules as REPRESENTATIVE PHOTO above.
++  - Alt text must be accurate to what is depicted, not invented.
++  - Status tag in this doc: GENERATED/[model or prompt family]
++
++BRANDED PLACEHOLDER
++  - A non-photo treatment: the JAG logomark on a dark panel, a material-board card,
++    a field-note style slot, or a scope-worksheet visual.
++  - Used when no representative photo is appropriate (staff/team slots).
++  - Status tag in this doc: BRANDED-PLACEHOLDER
++
++QUARANTINE
++  - A slot where a prior photo was rejected (sci-fi, fake, wrong trade, etc.).
++  - Must not be refilled with a near-duplicate from the same prompt family.
++  - Replacement must use a clearly different source or prompt direction.
++  - Status tag: QUARANTINE + reason + replacement direction
++
++---
++
++## VISUAL QUALITY MINIMUMS
++
++Any image that reaches a customer-facing slot must pass all five of these:
++
++1. TRADE ACCURACY
++   Does the image show a real electrical task matching the service page/section?
++   A commercial panel room is not the right image for a "lighting fixtures" service page.
++   A residential kitchen renovation is not electrical work.
++   Fail = wrong trade or wrong scope for the slot.
++
++2. REALISM QUALITY
++   No glowing circuits on human hands. No holographic schematics floating in air.
++   No cinematic sparks arcing from open breakers. No robot arms wiring panels.
++   The scene should look like a real licensed electrician's working environment.
++   Fail = sci-fi / fake / concept-art aesthetic.
++
++3. COMPOSITION QUALITY
++   No clipped faces, no extreme fish-eye distortion, no obvious AI generation artifacts
+… omitted 759 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_151011_c77774
+File written. Here is what was delivered and why:
+
+/home/toby/jag-electric-site/agency-handoffs/sage-revision-assets.md
+
+---
+
+WHAT IS IN IT
+
+Photo Labeling Policy — five status tiers with hard rules: REAL/CONFIRMED, REPRESENTATIVE, GENERATED, BRANDED-PLACEHOLDER, and QUARANTINE. Every tier spells out what alt text says, what code comments say, and what the customer page never says. No internal agency language bleeds through.
+
+Route-by-route slot inventory — 34 named slots across every route. Ten existing slots are marked KEEP (circuit maps, interactive components, review cards). Twenty-four new or upgrade slots are marked REPLACE, all with specific stock search direction, correct alt text, and overlay treatment. Zero slots in quarantine from prior build since the problem was absence of photos, not wrong photos.
+
+Visual quality gate — five criteria every image must pass before it touches a slot: trade accuracy, realism, composition, honest labeling, and dark-surface fit. Kills sci-fi imagery, wrong-trade shots, and generation artifacts at intake, not at QA.
+
+Color and type refinements — five additions on top of sage-brand.md: dark overlay gradient spec for photos (not flat black, not cyan), customer-visible vs source-comment labeling split, BRANDED-PLACEHOLDER card styling, H1 size correction for inner service pages, and WebP/dimension/lazy-load requirements.
+
+Banned imagery registry — four categories with explicit entries: sci-fi/fake electrical, wrong trade/wrong scope, fake JAG proof, and generic contractor template look. Plus a fifth category for image text overlay violations so "24/7" and "Emergency Service" never appear even as a photo caption.
+
+Forge/Craig requirements — numbered, concrete implementation instructions: new homepage proof strip section, image slot structure on all service pages, city photo slots on all five city pages, about page second slot, mandatory HTML comments on every image, and a fallback rule so BRANDED-PLACEHOLDER holds any slot where stock sourcing runs dry.

@@ -1,0 +1,115 @@
+  ┊ review diff
+a/agency-handoffs/niko-revision-seo.md → b/agency-handoffs/niko-revision-seo.md
+@@ -0,0 +1,924 @@
++# Niko — Local SEO Expansion Plan
++## JAG Electric / Jag Electric, LLC — Revision 2026-06-08
++### Prepared by: Niko (SEO & Content Lane, Go Alpha Marketing)
++
++---
++
++## 1. BUSINESS ENTITY ANCHOR
++
++All pages must carry consistent entity signals. These exact strings feed schema, copy, and citation alignment.
++
++| Field | Value |
++|---|---|
++| Legal name | Jag Electric, LLC |
++| DBA | JAG Electric |
++| Address | 807 E 7th St, Galena, KS 66739 |
++| Phone | (620) 714-1125 |
++| Email | jag.electric@yahoo.com |
++| Primary category | Electrician |
++| Secondary categories | Electrical Contractor, Residential Electrician, Commercial Electrician |
++| Owner | Joe Gendre |
++| BBB status | A+ Accredited since 2/20/2020 |
++| Founded | 3/7/2019 |
++| Google rating | 4.9 stars / 50 reviews |
++| HomeAdvisor rating | 4.9 / 45 reviews |
++| Service radius | Roughly 30 miles of Galena, KS |
++
++Schema type recommendation: `LocalBusiness` > `Electrician` on every page. Include `areaServed` array with all five city slugs plus Cherokee County and Crawford County for county-level coverage.
++
++---
++
++## 2. KEYWORD RESEARCH BY INTENT
++
++### 2a. Core Transactional Keywords (highest conversion intent)
++
++These belong in title tags, H1s, and first 100 words of body copy.
++
++```
++electrician pittsburg ks
++electrician galena ks
++electrician joplin mo
++electrical contractor pittsburg ks
++electrical contractor southeast kansas
++panel upgrade pittsburg ks
++electrical panel upgrade galena ks
++rewiring house pittsburg ks
++home rewiring galena ks
++electrical remodel pittsburg ks
++commercial electrician pittsburg ks
++outlet installation pittsburg ks
++licensed electrician cherokee county ks
++licensed electrician crawford county ks
++```
++
++### 2b. Local Informational Keywords (blog and FAQ targets)
++
++Target with service page FAQs and eventual blog posts. These build topical authority and pull informational searchers into the funnel.
++
++```
++how much does electrical panel upgrade cost kansas
++when do you need to rewire a house
++signs of bad wiring in old home
++cost to add outlets to house
++electrical inspection kansas
++what is a 200 amp panel upgrade
++can you add outlets without rewiring
++commercial electrical permit kansas
++```
++
++### 2c. Long-Tail & Hyper-Local Keywords (city page targets)
++
++Each city page should own its cluster. Do not force all terms onto one page.
++
++```
++electrician near pittsburg ks
++electrician near galena ks
++electrical contractor near joplin mo
++electrician girard ks
++electrician frontenac ks
+… omitted 846 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_151013_a6db26
+Delivered. File is at:
+
+/home/toby/jag-electric-site/agency-handoffs/niko-revision-seo.md
+
+924 lines, 5,440 words. Here is what is in it:
+
+Section 1 — Business entity anchor. Exact NAP/schema fields that feed every page and citation consistently.
+
+Section 2 — Keyword research by intent. Core transactional, local informational, long-tail hyper-local, competitor gap clusters, and GBP/maps pack terms separated by how they get used.
+
+Section 3 — Page titles and meta descriptions for all 19 routes. 50–60 char titles, 140–160 char metas, canonical URLs.
+
+Section 4 — Full H1/H2/H3 heading structure for every route. This is Wordsmith's scaffold — headings are keyword-mapped and should not be changed without flagging me.
+
+Section 5 — Internal link plan. Required forward and backward link flows with specific cross-link pairings between related service pages. Every route has a path to /estimate-prep.
+
+Section 6 — Local entity terms. Geographic entities (Cherokee County, Crawford County, Four-State Area), industry entities, and trust entities with usage notes.
+
+Section 7 — Word count requirements per route with priority tiers. P0 pages (homepage, panel upgrades, pittsburg-ks, galena-ks) get done first.
+
+Section 8 — 30-day content and ad calendar. GBP posts 2x/week, blog draft triggers, ad copy review days, and a day-29 audit gate.
+
+Section 9 — 8 full GBP post drafts ready to publish after Toby approval. No fabricated claims, no 24/7, no fake reviews.
+
+Section 10 — Schema recommendations. Full LocalBusiness/Electrician JSON-LD, Service schema pattern for each service page, FAQ schema rationale.
+
+Section 11 — Technical SEO checklist for Forge/Craig. Canonicals, OG tags, robots, sitemap, alt text, NAP footer exact match, mobile, no duplicate titles.
+
+Section 12 — Photo alt text guide. Honest labeling for representative vs. confirmed JAG photos.
+
+Section 13 — Cross-lane notes to Wordsmith, Forge, Chad, Silent Bob, and Craig with specific instructions.

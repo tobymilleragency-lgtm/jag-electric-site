@@ -1,0 +1,85 @@
+  ┊ review diff
+a/agency-handoffs/forge-revision-build.md → b/agency-handoffs/forge-revision-build.md
+@@ -0,0 +1,748 @@
++# Forge implementation requirements — Jag Electric local SEO completion revision
++
++Date: 2026-06-08
++Project: /home/toby/jag-electric-site
++Live URL: https://jag-electric-site.vercel.app/
++Repo: https://github.com/tobymilleragency-lgtm/jag-electric-site
++Lane: Forge
++Status: REQUIREMENTS ONLY — no source code edited by this handoff
++
++## 1. Revision objective
++
++The current site passes as a good visual prototype, but it is not complete as a real local SEO website. The revision must turn it into a full, photo-supported, locally grounded electrician website with deep service pages, deep city/service-area pages, stronger homepage conversion sections, stronger ad/landing hooks, and hard verification gates.
++
++Primary correction from Toby:
++- The site looks good visually, but does not feel real enough because it lacks strong photos.
++- Homepage and service pages are too thin.
++- Ad copy is weak.
++- Complete the site with local SEO depth.
++
++Forge/Craig implementation target:
++- Keep the premium switchgear / live-circuit identity.
++- Add representative electrician photos honestly.
++- Expand every service page and every city page to roughly 1000–1200 customer-facing SEO words.
++- Keep all visible wording practical, local, and customer-facing.
++- Preserve all verified fact boundaries.
++- Prove the result with route, screenshot, console, Lighthouse, schema, and asset-honesty gates.
++
++## 2. Non-negotiable truth boundaries to preserve
++
++Use only the confirmed facts below unless Silent Bob updates the fact brief with new proof.
++
++Confirmed usable facts:
++- Business name: JAG Electric / Jag Electric, LLC.
++- Category: Electrician / electrical contractor.
++- Address: 807 E 7th St, Galena, KS 66739.
++- Phone: (620) 714-1125.
++- Email: jag.electric@yahoo.com.
++- Owner/principal: Joe Gendre.
++- BBB: Accredited since 2/20/2020, A+ rated; business started 3/7/2019; incorporated 4/2/2019; LLC.
++- GBP/Toby-supplied rating: 4.9 Google rating, 50 Google reviews.
++- Facebook: 354 likes/followers; Electrician category; 100% recommend based on 20 reviews; limited evening and weekend appointments.
++- HomeAdvisor: 4.9 from 45 reviews; approved; Master Electrician and Panel Upgrades listed; free estimates listed; 24 years of experience listed by HomeAdvisor.
++- Services confirmed by public listings: residential and commercial electrical contractor services for new construction and remodels; electrical wiring; connectors; switchboards; panel upgrades; lighting; outlet repairs; computer cable installation; wiring/panel upgrades; switches/outlets/fixtures install/repair.
++- Approved city/service-area pages: Pittsburg KS, Galena KS, Joplin MO, Frontenac KS, Girard KS.
++- Approved review snippets only:
++  - “The work is high quality!”
++  - “A great choice if you want quality work without hassle.”
++  - “Jag Electric and the technician Jacob did a wonderful job!”
++
++Forbidden claims:
++- No 24/7 availability.
++- No emergency-service blanket claim.
++- No guaranteed same-day service.
++- No invented license number.
++- No invented warranty.
++- No financing claim.
++- No ranking claim such as “best electrician” or “#1.”
++- No fake reviews, fake reviewer names, fake dates, or fake review quantities.
++- No fake project photos.
++- No fake office locations in city pages.
++- No fake CRM/form delivery or booking confirmation.
++- No “we text you instantly” / “request sent” unless real delivery is wired and verified.
++- No “licensed in Missouri” claim on Joplin page unless Toby supplies proof.
++- Do not use the HomeAdvisor “24 years” claim as a visible primary claim unless Toby confirms whether it is personal experience; if used at all, attribute internally and avoid conflict with LLC start date.
++
++Required conservative hours language:
++- “Call to schedule — limited evening and weekend appointments available.”
++
++Required form honesty:
++- If the estimate form is not wired to verified email/CRM delivery, it remains an estimate-prep/call-summary tool with click-to-call and mailto fallback.
++
++## 3. Photo and representative-asset policy
++
++This revision is photo-first, but asset honesty is mandatory.
++
++Before implementing visual changes, Craig/Forge must create or update:
++- /home/toby/jag-electric-site/ASSET_INVENTORY.md
++
+… omitted 670 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_151016_6f8870
+Done: /home/toby/jag-electric-site/agency-handoffs/forge-revision-build.md

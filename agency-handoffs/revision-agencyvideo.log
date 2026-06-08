@@ -1,0 +1,123 @@
+  ┊ review diff
+a/agency-handoffs/eddie-revision-photo-video.md → b/agency-handoffs/eddie-revision-photo-video.md
+@@ -0,0 +1,707 @@
++# Eddie Revision — Photo/Video Production Package
++# Jag Electric — 2026-06-08
++# Prepared by: Eddie (agencyvideo lane)
++# Status: PRODUCTION DIRECTION — ready for Forge/Craig implementation
++
++---
++
++## Purpose of this file
++
++The revision brief identified one root problem: the site does not feel real enough
++because it lacks strong photos. This file is Eddie's complete answer:
++
++  - Every photo slot on every route, with exact visual direction
++  - Representative photo sourcing policy (honest, no fake JAG claims)
++  - Optional generated/AI-image guidance if Rex is available
++  - Short video asset direction (supplements existing eddie-video.md)
++  - Caption/alt-text inventory for every slot
++  - QC rules for photos and short video
++
++This file is consumed by Forge (Craig) for implementation, and cross-references
++the existing eddie-video.md for full video storyboards, platform cuts, and
++Hyperframes render specs.
++
++---
++
++## Section 1 — Representative Photo Policy
++
++### The rule
++
++No photo used on this site may be described as a JAG Electric job photo, a JAG
++project photo, or Jag Electric's own work UNLESS Toby supplies a confirmed
++JAG-originated file.
++
++Confirmed JAG files = photos supplied by Toby with an explicit statement that
++they are from JAG's own jobs, crew, vehicles, or jobsite.
++
++### What we CAN use
++
++  A. Representative electrical trade photos (stock, license-cleared)
++     Source examples: Unsplash, Pexels, Stocksy, or Getty with commercial license.
++     These must be visually credible electrical contractor work — not generic
++     stock clichés (no fake-smiling stock electricians, no posed hard-hat
++     diversity shoots). Look for real-trade aesthetics: panel work, conduit,
++     wire runs, fixture installs, meter socket work.
++
++  B. AI-generated representative images (optional — Rex)
++     If Rex (image generation) is available, generate per the prompts in
++     Section 3. These must be labeled in alt text and in the source inventory
++     as "representative electrical image, generated." Never describe as JAG work.
++
++  C. Brand/graphic assets that are designed (not photographic)
++     Icon cards, circuit-trace graphics, dark-panel service cards, map visuals.
++     No disclosure needed; these are clearly designed, not photography.
++
++### Labeling rules in code/alt text
++
++  Confirmed JAG photo:
++    alt="JAG Electric technician [description]"  (no "representative" qualifier)
++
++  Stock or representative photo:
++    alt="Electrician [description] — representative image"
++
++  Generated/AI image:
++    alt="[Description] — representative image"
++
++  Design/graphic asset:
++    alt="[Description of what the graphic shows]"  (no photo qualifier needed)
++
++### Where labels surface
++
++  - alt attribute on every <img>
++  - Eddie's source inventory (Section 6 of this file)
++  - No visible "stock photo" watermark or on-screen disclaimer required —
++    the honest alt/source record is sufficient and is the standard used by
++    reputable contractors on the web. Do NOT add on-page "stock photo" badges
++    that make the site feel cheap or unprofessional. The honest record is in
++    the code and the agency inventory, not in a footer disclaimer.
++
+… omitted 629 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_151015_86cf31
+File is written and verified. 707 lines, 29K. Here's what's in it:
+
+---
+
+Eddie — agencyvideo. File written to:
+/home/toby/jag-electric-site/agency-handoffs/eddie-revision-photo-video.md
+
+No source code touched.
+
+---
+
+What the package contains:
+
+SECTION 1 — Representative photo policy
+Hard rule: nothing gets called a JAG project photo unless Toby supplies it. Stock, AI-generated, and designed assets all have distinct labeling rules. The honest record lives in alt text and the source inventory — no ugly on-screen "stock photo" badges that undermine the site's premium feel.
+
+SECTION 2 — 28 photo slots across every route
+Every slot has: Slot ID, route, section, exact visual direction, aspect ratio, alt text, source type, and priority (CRITICAL / HIGH / MEDIUM / LOW). The six service page heroes are all CRITICAL. The about page Joe Gendre photo is flagged as the single highest-ROI image on the entire site.
+
+SECTION 3 — 7 Rex prompts (optional)
+Ready to run if Toby approves AI-generated representative images. Each prompt is tight and electrical-trade-specific. QC rules for rejecting garbled AI output are included.
+
+SECTION 4 — Photo-to-motion clips (no Hyperframes required)
+A single FFmpeg zoompan recipe that turns any sourced hero photo into a 15-second Ken Burns background clip for each service page. Low effort, high perceived quality. All 6 service filenames listed. Embed spec included so Craig can drop it in without guessing.
+
+SECTION 5 — Master alt text table
+One row per slot, ready to paste into code. City page alt text is honest location description, not "representative image," because those are actual photos of the named city.
+
+SECTION 6 — Source inventory template
+Forge logs every sourced image here with URL, license, and status. QUARANTINED status is included — if Toby rejects a photo it is locked out with reason, not silently substituted.
+
+SECTION 7 — QC rules (mechanical + visual + claims gate)
+Three tiers: automated checks Forge can run, visual checks Eddie reviews before approval, and the truth-boundary claims gate that ensures no caption invents a project or violates the fact brief.
+
+SECTION 8 — Toby decisions that unblock slots
+Joe Gendre's headshot for /about is Priority 1. Rex approval is Priority 1. City photo sourcing strategy is Priority 2.
+
+SECTIONS 9–11 — Cross-references, sequencing order, Chad handoff gate
+Forge knows what order to work. Chad knows not to run paid ads until Toby approves.

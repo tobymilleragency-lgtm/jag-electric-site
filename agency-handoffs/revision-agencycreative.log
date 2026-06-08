@@ -1,0 +1,122 @@
+  ┊ review diff
+a/agency-handoffs/wordsmith-revision-copy.md → b/agency-handoffs/wordsmith-revision-copy.md
+@@ -0,0 +1,1252 @@
++# JAG Electric — Revision Copy Package
++**Lane:** Wordsmith | **Date:** 2026-06-08
++**Destination:** /home/toby/jag-electric-site/agency-handoffs/wordsmith-revision-copy.md
++**For:** Forge/Craig to consume for site depth build. Customer-facing copy only.
++
++---
++
++## TRUTH BOUNDARIES REMINDER (read before implementing)
++
++All copy in this document stays within the verified fact set.
++
++- No 24/7 or emergency service claims.
++- No license number — not confirmed in source material.
++- No warranties — not confirmed.
++- No guaranteed same-day or same-week service.
++- No financing language.
++- Hours: call to schedule; limited evening and weekend appointments available.
++- Experience: "since 2019" for the business. The "24 years of experience" figure is from HomeAdvisor's listing — if used, attribute it as listed on HomeAdvisor and do not inflate it.
++- Photos: label representative electrical photos honestly. Slot directions below tell you what to show in each section. Do not caption any photo as a JAG job photo unless Joe supplies real job photos.
++- Three verified review quotes only: "The work is high quality!" / "A great choice if you want quality work without hassle." / "Jag Electric and the technician Jacob did a wonderful job!"
++
++---
++
++## PART 1: HOMEPAGE MEAT SECTIONS
++
++These sections supplement the existing hero, services preview, why-us strip, and review callout. Add these between and after existing sections to give the page depth and conversion weight.
++
++---
++
++### Section: How It Works (add after services preview)
++
++**Section Header:** Getting an Estimate Is Simple
++
++**Subhead:** Three steps. No pressure. No mystery.
++
++**Step 1 — Tell Us What You Need**
++Call us at (620) 714-1125 or fill out the estimate prep form. Tell us what's going on — tripping breakers, a panel that's too small, a remodel that needs wiring, or anything else. The more you can describe, the faster we can help.
++
++**Step 2 — We Come Take a Look**
++We schedule a time that works for you — including limited evenings and weekends. We show up, look at the job, and give you a straight answer on what it involves and what it costs. Free estimate, no obligation.
++
++**Step 3 — We Do the Work Right**
++Once you decide to move forward, we get the job scheduled and handle it completely — panels, wiring, fixtures, whatever the scope. You don't have to babysit the project. We keep you informed and clean up when we're done.
++
++**CTA:** Get Your Free Estimate →
++
++---
++
++### Section: Social Proof Block (expanded, add after review callout)
++
++**Section Header:** 4.9 Stars Across 100+ Reviews. Here's Why.
++
++**Lead copy:**
++JAG Electric has been rated 4.9 stars on both Google and HomeAdvisor, holds an A+ rating with the Better Business Bureau, and comes 100% recommended on Facebook. That's not one platform with a good week — it's three independent platforms with the same answer: people are happy they called.
++
++**What keeps showing up in the reviews:**
++- The work is done right the first time
++- Straight talk on pricing — no surprises after the fact
++- Crews that actually show up when they say they will
++- Clean work — no mess left behind
++- Professionals who treat your home like it matters
++
++**Three verified customer quotes:**
++
++"The work is high quality!"
++— Verified JAG Electric customer
++
++"A great choice if you want quality work without hassle."
++— Verified JAG Electric customer
++
++"Jag Electric and the technician Jacob did a wonderful job!"
++— Verified JAG Electric customer
++
++**Note to Craig/Forge:** Display these as styled quote cards with attribution "Verified customer via [Google / HomeAdvisor / Facebook]" only if the specific platform can be confirmed. Otherwise keep as "Verified JAG Electric customer." Do not invent additional quotes.
++
++**Trust strip beneath quotes:**
++- Google: 4.9 Stars — 50 Reviews
++- HomeAdvisor: 4.9 Stars — 45 Reviews
+… omitted 1174 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_151012_49a52a
+Written. 1,252 lines, 11,365 words. Here's what's in it:
+
+---
+
+PART 1 — HOMEPAGE MEAT SECTIONS (six new sections):
+- How It Works — three-step process block, plain and practical
+- Expanded social proof block with credentialed lead-in, what the reviews consistently say, quote cards, and trust strip
+- Problem/Solution block — six common homeowner problems mapped to honest next-step language
+- About the business (condensed homepage version)
+- FAQ block — six questions a real homeowner asks before calling an electrician
+
+PART 2 — FULL SERVICE PAGE COPY (six pages, 1000-1200 words each):
+- Panel Upgrades — why panels matter, 8 warning signs, upgrade scope, new construction angle, FAQ
+- Rewiring — age/type context (knob-and-tube, aluminum), why and when to rewire, partial vs full scope, post-rewire outcome, FAQ
+- Lighting & Fixtures — broken out by product type (fans, recessed, chandeliers, exterior, under-cabinet, LED, landscape), new circuits vs existing, commercial lighting, FAQ
+- Outlets & Switches — GFCI code requirements explicitly listed, when outlets point to bigger problems, USB and data cabling, FAQ
+- Remodels & New Construction — broken out by project type (kitchen, bath, room addition, basement, garage, new build), why early involvement saves money, GC coordination angle, FAQ
+- Commercial Electrical — commercial-vs-residential distinction, full scope list, why a dual-trade contractor matters, FAQ
+
+PART 3 — FULL CITY PAGE COPY (five pages, 1000-1200 words each):
+- Pittsburg — local housing stock context, all six service types applied locally, proximity note, pre-call checklist
+- Galena — home base story, older housing context, neighbor positioning, contact block
+- Joplin — honest coverage-limit disclaimer, why MO customers call a KS contractor, coverage zone note
+- Frontenac — Crawford County context, proactive homeowner angle, education without scare tactics
+- Girard — county seat framing, Crawford County commercial district angle, service breakdown
+
+PART 4 — AD COPY:
+- 6 Meta hooks (stop-the-scroll first lines)
+- 3 short primary text variants
+- 3 long primary text variants (panel, general trust, rewiring)
+- 3 full Google Search Ad sets with 5 headlines + 2 descriptions each
+- 4 GBP posts ready to schedule
+- Full landing page spec with angle, headline, copy, form fields, and thank-you state
+- Handoff notes to Chad and Forge/Craig
+
+Truth boundaries enforced throughout. No 24/7, no license numbers, no warranties, no guaranteed same-day. All copy is customer-facing only.
+
+File: /home/toby/jag-electric-site/agency-handoffs/wordsmith-revision-copy.md

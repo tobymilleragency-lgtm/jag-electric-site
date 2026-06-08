@@ -1,0 +1,89 @@
+  ┊ review diff
+a/agency-handoffs/craig-revision-deploy.md → b/agency-handoffs/craig-revision-deploy.md
+@@ -0,0 +1,595 @@
++# Craig deployment and verification checklist — Jag Electric completion revision
++
++Revision brief date: 2026-06-08
++Repo: `/home/toby/jag-electric-site`
++Live URL: `https://jag-electric-site.vercel.app/`
++GitHub: `https://github.com/tobymilleragency-lgtm/jag-electric-site`
++
++## Craig scope
++
++Craig verifies and deploys after Forge has implemented the revision. Craig does not approve completion on build success alone.
++
++This revision is BLOCKED until the completed site proves all of the following:
++
++- Required routes build and return 200.
++- Homepage, service pages, and service-area pages have real depth.
++- Service pages target roughly 1000–1200 customer-facing SEO words each.
++- City/service-area pages target roughly 1000–1200 customer-facing local SEO words each.
++- Representative/generative/stock visuals are honestly inventoried and never presented as Jag Electric job photos.
++- No visible internal, agency, showpiece, generated-placeholder, or lane/process language appears in customer-facing pages.
++- No unsupported claims appear: fake reviews, license numbers, 24/7/emergency claims, same-day guarantees, warranties, financing, rankings, fake CRM/form delivery, or unverified years in business beyond sourced facts.
++- Desktop and mobile browser QA pass on visual authenticity, not only HTTP status.
++- GitHub and Vercel production deployment proof is captured.
++
++## Required routes to probe
++
++Probe every route below locally and live after deployment:
++
++```text
++/
++/services
++/services/panel-upgrades
++/services/rewiring
++/services/lighting-fixtures
++/services/outlets-switches
++/services/remodel-new-construction
++/services/commercial-electrical
++/service-area
++/service-area/pittsburg-ks
++/service-area/galena-ks
++/service-area/joplin-mo
++/service-area/frontenac-ks
++/service-area/girard-ks
++/about
++/reviews
++/estimate-prep
++/sitemap.xml
++/robots.txt
++```
++
++Expected result:
++
++- HTML routes: 200, correct Jag Electric title/content, no blank shell, no wrong-brand residue.
++- `/sitemap.xml`: 200, valid XML, includes all public routes.
++- `/robots.txt`: 200, points to sitemap and does not block crawlable pages.
++
++## Pre-deploy source and handoff gates
++
++Before deploy, verify these handoff files exist and are usable. If any required lane output is missing, mark BLOCKED and do not deploy as complete.
++
++```bash
++cd /home/toby/jag-electric-site
++find agency-handoffs -maxdepth 1 -type f -print | sort
++```
++
++Required content gates:
++
++- Silent Bob: fact/proof boundary and representative-photo policy.
++- Sage/Eddie/Rex: photo slot inventory and asset direction by route/section.
++- Wordsmith: deep service/city copy plus stronger ad copy.
++- Niko: local SEO structure, keywords, internal links, 30-day calendar update.
++- Chad: draft-only media/ad copy package, no spend/no public launch.
++- Forge: implementation requirements for route depth and photos.
++- Craig: this checklist.
++
++BLOCKED if the asset inventory does not include, at minimum:
++
++```text
++route
+… omitted 517 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_151017_1053e4
+Craig wrote the requested checklist only to:
+
+/home/toby/jag-electric-site/agency-handoffs/craig-revision-deploy.md
+
+No source code edited.

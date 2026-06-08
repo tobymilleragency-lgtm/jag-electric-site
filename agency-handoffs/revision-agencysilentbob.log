@@ -1,0 +1,108 @@
+  ┊ review diff
+a/agency-handoffs/silentbob-revision-facts.md → b/agency-handoffs/silentbob-revision-facts.md
+@@ -0,0 +1,226 @@
++# Silent Bob Revision Facts — Jag Electric
++**Produced by:** Saabab / Silent Bob
++**Revision date:** 2026-06-08
++**Supersedes section:** silentbob-facts.md Section 4 (service-area), Section 6 (photography), Section 7 (downstream constraints)
++**Status:** Ready for Wordsmith, Chad, Forge/Craig, Niko
++
++This file adds the revision-scoped fact boundary and photo policy. It does NOT replace silentbob-facts.md — both files apply. When they conflict, this file wins on photo, local-SEO-copy, and ad-copy rules. The confirmed-facts table and forbidden-claims list from silentbob-facts.md remain in full force.
++
++---
++
++## 1. CONFIRMED FACTS (carry-forward, no change)
++
++All facts from silentbob-facts.md Section 1 remain confirmed and sourced. No new facts have been added in this revision because no new source material was supplied. The table below is the operative short-form summary for revision lanes.
++
++| Fact | Source | Revision-lane usage |
++|---|---|---|
++| Business name | JAG Electric / Jag Electric, LLC | GBP + BBB | Use in all H1s, title tags, schema |
++| Address | 807 E 7th St, Galena, KS 66739 | GBP + BBB | Footer, contact, LocalBusiness schema |
++| Phone | (620) 714-1125 | GBP | Primary CTA on every route |
++| Email | jag.electric@yahoo.com | Facebook | Mailto fallback on estimate-prep |
++| Owner | Joe Gendre | BBB | About page, schema |
++| Founded | 3/7/2019; LLC incorporated 4/2/2019 | BBB | Use "founded 2019" — not "24 years" (see flag) |
++| BBB | A+, accredited since 2020 | BBB | Badge + link only |
++| Google | 4.9 stars / 50 reviews | Toby-supplied | Label clearly; link to GBP |
++| HomeAdvisor | 4.9 / 45 reviews | HomeAdvisor | Label clearly; link to HA profile |
++| Facebook | 100% recommend / 20 reviews, 354 followers | Facebook | Label clearly; link to FB page |
++| Services confirmed | Panel upgrades, rewiring, lighting/fixtures, outlets/switches, remodel/addition electrical, new construction wiring, computer cable, commercial electrical | BBB + HA + FB | All service pages may use freely |
++| Scheduling | Limited evening and weekend appointments available | Facebook description | Use verbatim or paraphrase; never 24/7 |
++| Free estimates | Yes | HomeAdvisor | Safe to use; do not add conditions |
++| Approved review snippets | Three snippets from silentbob-facts.md Section 5 | Toby-supplied | Use only these; no edits; no fabrications |
++| Approved city pages | Pittsburg KS, Galena KS, Joplin MO, Frontenac KS, Girard KS | Brief | No additional cities without Toby |
++
++Unchanged open question from original brief: the "24 years experience" claim on HomeAdvisor is still unconfirmed by Toby. Hold it. Use "founded 2019" until Toby explicitly confirms Joe's pre-LLC trade experience years.
++
++---
++
++## 2. FORBIDDEN CLAIMS (revision additions in bold)
++
++All forbidden claims from silentbob-facts.md Section 3 carry forward without exception. Revision adds the following:
++
++- **Do not claim any photo is a real JAG Electric job photo unless Toby supplies it and confirms it.** This applies to generated, licensed, stock, or Unsplash-sourced images regardless of how realistic or trade-specific they appear.
++- **Do not write city-page copy that invents local landmarks, named neighborhoods, intersections, or customer anecdotes specific to that city** unless sourced or supplied by Toby. Generic local-service framing ("homeowners and businesses in Pittsburg, KS") is safe. Invented specifics ("near the Crawford County Courthouse, our crew...") are not, unless the landmark is publicly verifiable and the association is factual.
++- **Do not add SEO word count by padding with invented stats, made-up permit counts, fictitious project counts, or unverifiable local market claims.** Depth must come from real service detail, real customer pain points, and accurate local context — not fabricated authority signals.
++- **Do not write ad copy claiming emergency response, guaranteed callbacks, same-day booking, or priority scheduling.** The evidence supports "limited evening and weekend appointments" only.
++- **Do not aggregate the Google, HomeAdvisor, and Facebook ratings into a blended score** or display a single star count without the platform label.
++- Do not list a license number. None has been supplied.
++- Do not reference warranties, financing, or fleet/crew size.
++- Do not claim the contact/estimate form delivers to an inbox or CRM unless Toby confirms wiring.
++
++---
++
++## 3. REPRESENTATIVE-PHOTO POLICY
++
++This section is new. It governs all image slots added during the revision.
++
++### 3a. Definition of photo categories
++
++**Category A — Confirmed JAG Photos:**
++Real job-site or crew photos supplied by Toby and confirmed by him as JAG Electric's actual work.
++Status as of 2026-06-08: NONE IN HAND. This category is empty.
++
++**Category B — Representative Trade Photos:**
++Stock, licensed, Unsplash, Pexels, or AI-generated images depicting electrical work, tools, panels, wiring, or tradespeople. These are visually accurate to the trade but are not JAG Electric's actual work.
++Status as of 2026-06-08: ALL CURRENT SITE PHOTOS fall here.
++
++**Category C — Quarantined Assets:**
++Any image Toby has explicitly rejected. Must not be reused or substituted with a near-duplicate without Toby re-approval in the current conversation. As of this revision no photos have been quarantined. This list will be maintained here if any are rejected.
++
++### 3b. Labeling rules
++
++Every photo slot must carry a source label in the asset inventory (see Section 3c). The rules per category:
++
++Category A photos:
++- May be used with captions like "Our work," "Recent project," or "JAG Electric team."
++- No special disclosure required on the page itself, but must be logged in the inventory as confirmed.
++
++Category B photos (all current photos):
++- MUST NOT be captioned as "Our work," "Recent project," "JAG Electric team," or any language implying they are real JAG job photos.
+… omitted 148 diff line(s) across 1 additional file(s)/section(s)
+
+session_id: 20260608_151010_47a926
+Done. File written to:
+/home/toby/jag-electric-site/agency-handoffs/silentbob-revision-facts.md
+
+Here is what is in it and why:
+
+SECTION 1 — CONFIRMED FACTS
+Short-form carry-forward table from the original brief. No new facts because no new source material exists. The "24 years" flag is held. All confirmed service types, ratings, contact info, and approved cities are here for downstream lanes to reference without digging through the original.
+
+SECTION 2 — FORBIDDEN CLAIMS
+Everything from the original plus three revision-specific additions: no photo may be claimed as a real JAG job photo, no city page may invent local landmarks or fake specificity to hit word count, and no ad copy may claim emergency or same-day availability.
+
+SECTION 3 — REPRESENTATIVE-PHOTO POLICY
+Three categories defined: A (real JAG photos — none in hand), B (all current site photos, stock, generated, representative), C (quarantined/rejected). Category B photos may never be captioned as "our work." AI-generated images cannot simulate a fake-documentary job-photo look. Every image must be logged in a photo inventory file before Forge ships.
+
+SECTION 4 — PHOTO/SOURCE HONESTY RULES
+Six plain rules covering alt text (no business claims, it is crawled), inventory as the record of truth, what to do when Toby supplies real photos, and how to handle unknown-origin images already in the repo.
+
+SECTION 5 — SERVICE-AREA LOCAL SEO BOUNDARY
+What city pages may say (real service descriptions, publicly verifiable geography, category-level homeowner pain points) versus what they must not say (invented project histories, city-specific job counts, fake local offices, MO licensing on Joplin). Each of the five approved cities gets a brief positioning note. Schema areaServed limited to the five approved cities only.
+
+SECTION 6 — DOWNSTREAM NO-FAKE CHECKLIST
+Hard-stop list per lane: Wordsmith, Chad, Forge/Craig, Niko, and Sage/Eddie/Rex each have named items they must not fabricate before marking output ready. This is the lane-accountability section.
+
+One thing I flagged for you: the photo inventory file (photo-inventory.md) does not exist yet. That is a gate — Forge should not ship revised image slots without it. Sage/Eddie/Rex needs to create and populate it as part of their photo-slot deliverable. If you want me to create a blank template for that file now I can do it.
